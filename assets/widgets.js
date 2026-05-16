@@ -136,7 +136,7 @@ async function refreshWeather(root = document) {
     cards,
     liveCount
       ? `Live Open-Meteo forecast for ${liveCount} day${liveCount === 1 ? "" : "s"}; planning estimates for the rest.`
-      : "Planning weather estimates. Live forecast appears automatically inside the 16-day forecast window.",
+      : "Forecasts are estimates until 16 days before the date, then will update automatically.",
     root
   );
 }
