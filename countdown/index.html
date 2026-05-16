@@ -3,16 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>2026 Family Cruise Widgets</title>
+    <title>Cruise Countdown</title>
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
-    <main class="widget-shell widget-stack" aria-label="2026 Family Cruise live widgets">
-      <nav class="widget-links" aria-label="Individual widget embeds">
-        <a class="widget-link" href="/countdown/">Countdown widget</a>
-        <a class="widget-link" href="/weather/">Weather widget</a>
-      </nav>
-
+    <main class="widget-shell" aria-label="Cruise countdown widget">
       <section class="countdown" aria-label="Cruise countdown">
         <div>
           <div class="countdown-title">Norwegian Viva Sailaway</div>
@@ -37,17 +32,11 @@
           </div>
         </div>
       </section>
-
-      <section>
-        <div class="weather-strip" id="weatherStrip" aria-label="Cruise weather outlook"></div>
-        <div class="status" id="status">Loading weather...</div>
-      </section>
     </main>
 
     <script src="/assets/widgets.js"></script>
     <script>
       startCountdown();
-      startWeather();
     </script>
   </body>
 </html>

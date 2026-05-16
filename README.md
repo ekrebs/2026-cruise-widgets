@@ -17,3 +17,11 @@ Static, embeddable widgets for the 2026 Family Mediterranean Cruise Notion dashb
 - Build output directory: `/` or `.` depending on what the Cloudflare UI accepts for repo root
 
 After deploy, embed the public HTTPS URL in Notion with `/embed`.
+
+## Embed URLs
+
+- Combined preview: `/`
+- Countdown only: `/countdown/`
+- Weather only: `/weather/`
+
+Use the separate widget URLs in Notion when you want to place or resize each section independently.

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cruise Weather</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main class="widget-shell" aria-label="Cruise weather widget">
+      <section>
+        <div class="weather-strip" id="weatherStrip" aria-label="Cruise weather outlook"></div>
+        <div class="status" id="status">Loading weather...</div>
+      </section>
+    </main>
+
+    <script src="/assets/widgets.js"></script>
+    <script>
+      startWeather();
+    </script>
+  </body>
+</html>
