@@ -14,6 +14,6 @@ Static, embeddable widgets for the 2026 Family Mediterranean Cruise Notion dashb
 
 - Framework preset: `None`
 - Build command: leave blank
-- Build output directory: `/`
+- Build output directory: `/` or `.` depending on what the Cloudflare UI accepts for repo root
 
 After deploy, embed the public HTTPS URL in Notion with `/embed`.
